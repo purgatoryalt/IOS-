@@ -1,22 +1,25 @@
 body{
     margin: 0;
+    background:linear-gradient(#090a11 , #242935) ;
 }
 
 .box{
     background: #090a11;
     margin: 0;
-    opacity: 1;
-    position: ;
+    opacity: 0.95;
+    position: fixed ;
+    width: 100%;
 }
 
 .box_cabecalho-titulo{ color: #c3073f;
-
 }
+
 .box_cabecalho{
     display: flex;
     justify-content: space-between;
     margin: 0 5% 0 5% ;
 }
+
 .box_cabecalho-nav-ul{
     display: flex;
     list-style-type: none;
@@ -27,3 +30,70 @@ body{
     color: #c5c6c7;
     
 }
+
+.section_img-banner{ 
+    width: 100%;
+
+}
+
+.container{
+    display: flex;
+    margin: 0 10% 0 10%;
+    align-items: center;
+    
+}
+
+.container_img {
+    width: 50%;
+}
+
+.container_titulo{
+    text-align: center;
+    color: white;
+}
+
+.container_p{
+    text-align: justify;
+    margin: 20px;
+    color: white;
+}
+
+.container_winner{
+    display: flex;
+    margin: 0 10% 0 10%;
+    align-items: center;
+}
+
+.container_titulo-winner{
+    text-align: center;
+    color: white;
+}
+
+.container_po{
+    text-align: justify;
+    margin: 20px;
+    color: white;
+
+
+}
+
+.container_pp{
+    width: 50%;
+}
+
+.container_footer{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container_winnerr{
+    margin: 10%;
+}
+
+.container_ppp{
+    text-align: center;
+     color: white;
+      font-size: 20px;"
+}
+
